@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-shadow: 0px 0px 5px 00px black ;
+    margin-bottom: 1px;
+    background-color: rgb(235, 249, 251);
+    height: 80px;
+}
+
+.nav-logo{
+    width: 100px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+.nav-profile{
+    width: 75px;
+}
+
+
+.navbar h1{
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}

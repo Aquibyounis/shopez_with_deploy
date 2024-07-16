@@ -1,0 +1,73 @@
+.addproduct{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 800px;
+    padding: 30px 50px;
+    margin: 20px 30px;
+    border-radius: 6px;
+    background: linear-gradient(70deg, rgb(7, 0, 69),rgb(25, 21, 131),rgb(0, 82, 118)) ;
+}
+
+.addproduct-item-field{
+    width: 100%;
+    color: white;
+    font-size: 25px;
+}
+
+.addproduct-item-field input{
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    padding-left: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.792);
+    box-shadow: 0px 0px 5px 0px azure;
+    outline: none;
+    color: black;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.addproduct-price{
+    display: flex;
+    gap: 40px;
+}
+
+.addproduct-selector{
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    border: 2px solid rgba(0, 0, 0, 0.741);
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px 0px white;
+    font-size: 17px;
+
+}
+
+
+.image{
+    margin: 30px 0px;
+    margin-left: 20px;
+    margin-top: 40px;
+    height: 120px;
+    width: 120px;
+    border-radius: 5px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.addproduct-btn{
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px 0px azure;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(255, 252, 248);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    cursor: pointer;
+}
